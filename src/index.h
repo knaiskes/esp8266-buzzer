@@ -1,4 +1,4 @@
-const char HTML_PAGE[] =
+const char INDEX_PAGE[] =
 "<!DOCTYPE html>"
 "<html>"
 "<head>"
