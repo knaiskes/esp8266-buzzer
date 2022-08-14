@@ -1,5 +1,7 @@
 # esp8266-buzzer
 
+![20220814_143953](https://user-images.githubusercontent.com/6069054/184535306-3998d0f2-df24-4a14-8ac2-aa0d9c5720ac.jpg)
+
 Activate a buzzer through a Web page using an esp8266 microcontroller
 
 # Components
@@ -76,3 +78,16 @@ $ sudo chmod 777 /dev/ttyUSB0
 ```
 
 and try again
+
+# Activate buzzer
+
+When the esp8266 is connected to your network, you can visit its IP address in
+order to activate the buzzer.
+
+You can find its IP from your router's settings page.
+
+By default the hostname is defined as *buzzer* but you can change it to anything you like in src/buzzer.ino
+
+```
+const char* hostName = "buzzer";
+```
